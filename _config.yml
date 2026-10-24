@@ -1,0 +1,5 @@
+title: My Site
+description: A short description
+remote_theme: daviddarnes/garth
+plugins:
+  - jekyll-remote-theme
