@@ -1,5 +1,5 @@
 ---
-title: Experimenting with K8s StatefulSets by Building a Cloud Status Monitor
+title: Experimenting with K8s StatefulSets by Building a Cloud Status Monitor - Part 1
 summary: Kubernetes, Kafka, Postgres
 ---
 
