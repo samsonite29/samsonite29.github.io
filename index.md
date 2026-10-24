@@ -7,11 +7,11 @@ layout: page
   <h1 style="margin:0;">Hello, my name is Samson</h1>
 </div>
 
-I'm a backend and platform engineer focused on building distributed services and the cloud infrastructure they run on.
+I'm Software Engineer focused on the design of scalable, resilient, and event-driven distributed systems. Experienced in cloud-native architectures, platform engineering with a passion for building robust data systems at scale
 
-Currently I work at LexisNexis Risk Solutions. I work with AWS, Kubernetes (EKS), Terraform, FluxCD and GitHub Actions, and I've got a backend background in Python, .NET and TypeScript.
+Currently I work at LexisNexis Risk Solutions as a Platform Engineer. I work with AWS, Kubernetes, Terraform, Mongodb and more. I focus on keeping the systems reliable and secure.
 
-You can find me on [GitHub](https://github.com/samsonite29) and [LinkedIn](https://linkedin.com/in/oyedefunbi), or [send me an email](mailto:you@example.com).
+You can find me on [GitHub](https://github.com/samsonite29) and [LinkedIn](https://linkedin.com/in/oyedefunbi).
 
 ## Recent Experimentations
 
