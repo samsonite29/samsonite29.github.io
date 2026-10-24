@@ -19,7 +19,7 @@ Things I've been building, breaking and learning from.
 
 {% for post in site.posts limit:3 %}
 [{{ post.title }}]({{ post.url | relative_url }})  
-{{ post.date | date: "%d %B %Y" }} — {{ post.summary }}
+{{ post.date | date: "%d %B %Y" }}
 
 ---
 {% endfor %}
