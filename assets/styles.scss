@@ -1,0 +1,90 @@
+---
+---
+@import "garth";
+
+// Aku palette
+$white:      #ffffff;
+$ink:        #111111;   // Aku black, for text
+$muted:      #5c5c5c;   // dates, summaries
+$red:        #c8102e;   // main crimson
+$red-dark:   #8b0000;   // hover
+$red-glow:   #ff4b2b;   // flame orange-red, for small accents
+$border:     #f0d4d8;   // faint red-tinted dividers
+
+
+// Header bar
+header,
+.header,
+.site-header {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+header a,
+.header a,
+.site-header a {
+  color: $red !important;
+
+  &:hover,
+  &:focus {
+    color: $red-dark !important;
+  }
+}
+
+body {
+  background: $white;
+  color: $ink;
+}
+
+h1, h2, h3, h4 {
+  color: $ink;
+}
+
+h2 {
+  border-left: 4px solid $red;
+  padding-left: 0.75rem;
+}
+
+a {
+  color: $red;
+  text-decoration: underline;
+  text-decoration-color: rgba($red, 0.35);
+  text-underline-offset: 3px;
+  transition: color 0.15s ease, text-decoration-color 0.15s ease;
+
+  &:hover,
+  &:focus {
+    color: $red-dark;
+    text-decoration-color: $red-dark;
+  }
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid $border;
+  margin: 1.5rem 0;
+}
+
+img[alt="Samson"] {
+  border: 3px solid $red;
+}
+
+::selection {
+  background: $red;
+  color: $white;
+}
+
+code {
+  background: #fff3f4;
+  color: $red-dark;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+blockquote {
+  border-left: 3px solid $red-glow;
+  color: $muted;
+  margin-left: 0;
+  padding-left: 1rem;
+}

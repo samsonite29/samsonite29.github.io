@@ -3,7 +3,7 @@ layout: page
 ---
 
 <div style="display:flex; align-items:center; gap:1.5rem; margin-bottom:2rem;">
-  <img src="{{ '/assets/images/me.jpeg' | relative_url }}" alt="Samson" style="width:90px; height:90px; border-radius:50%; object-fit:cover;">
+  <img src="{{ '/assets/images/boy.jpeg' | relative_url }}" alt="Samson" style="width:90px; height:90px; border-radius:50%; object-fit:cover;">
   <h1 style="margin:0;">Hello, my name is Samson</h1>
 </div>
 
