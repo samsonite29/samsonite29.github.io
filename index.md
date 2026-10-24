@@ -9,7 +9,7 @@ layout: page
 
 I'm Software Engineer focused on the design of scalable, resilient, and event-driven distributed systems. Experienced in cloud-native architectures, platform engineering with a passion for building robust data systems at scale
 
-Currently I work at LexisNexis Risk Solutions as a Platform Engineer. I work with AWS, Kubernetes, Terraform, Mongodb and more. I focus on keeping the systems reliable and secure.
+Currently I work at LexisNexis Risk Solutions as a Platform Engineer. I work with AWS, Kubernetes, Terraform, Mongodb and more. I focus on keeping the data platforms reliable, correct and secure.
 
 You can find me on [GitHub](https://github.com/samsonite29) and [LinkedIn](https://linkedin.com/in/oyedefunbi).
 
