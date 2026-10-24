@@ -14,5 +14,5 @@ To keep feeding my curiosity about K8s StatefulSets, I came up with an architect
 3. The **processor** reads from `status.raw`, normalises the data, removes duplicates, and saves it in Postgres.
 4. **Postgres** is the source of truth. It stores data about incidents, providers, and so on.
 5. The **relay** service queries incident data from Postgres and publishes it to the `status.incidents` topic.
-6. The **alerter** service reads from `status.incidents` and logs an alert-style message to the console.
+6. The **alerts** service reads from `status.incidents` and logs an alert-style message to the console.
 7. The **dashboard** service queries only the data it needs to populate the dashboard.
